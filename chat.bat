@@ -23,6 +23,7 @@ cls
 pushd \\%computername%\sendbox > nul
 dir /b /a
 popd
+timeout 1 > nul
 goto box
 :error
 cls
