@@ -34,6 +34,7 @@ goto start
 :send
 cls
 echo NEW MAIL
+echo %computername% | clip
 echo -------------------------------------------
 set /p id=send to:
 echo -------------------------------------------
