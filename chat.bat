@@ -33,6 +33,7 @@ net share sendbox /DELETE > nul
 goto start
 :send
 cls
+echo %computername%
 echo NEW MAIL
 echo %computername% | clip
 echo -------------------------------------------
